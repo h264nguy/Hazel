@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoài Ngân Phan</title>
+  <meta
+    name="description"
+    content="A small personal page dedicated to Hoài Ngân Phan — bright, energetic, caring, and always making life more fun."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Go to home">Hazel</a>
+
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#message">Message</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A little page for Hazel</p>
+        <h1>Hoài Ngân<br />Phan</h1>
+        <div class="line"></div>
+        <p class="hero-text">
+          A bright, energetic soul who turns simple moments into fun memories and always makes sure everyone feels part of the plan.
+        </p>
+        <div class="hero-actions">
+          <a class="btn dark" href="#gallery">See Our Memories</a>
+          <a class="btn light" href="#message">Read My Message</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="photo-frame main-photo">
+          <img src="assets/img/hazel-main.jpg" alt="Hoài Ngân Phan standing beneath cherry blossoms" />
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-grid section" aria-label="A few things about Hazel">
+      <article class="mini-card reveal">
+        <span class="icon" aria-hidden="true">☺</span>
+        <h3>Cheerful</h3>
+        <div class="tiny-line"></div>
+        <p>Bright, energetic, and somehow able to turn even an ordinary plan into something fun.</p>
+      </article>
+
+      <article class="mini-card reveal">
+        <span class="icon" aria-hidden="true">☁</span>
+        <h3>Easy to Talk To</h3>
+        <div class="tiny-line"></div>
+        <p>Friendly, lively, and always keeping everyone connected, included, and up to date.</p>
+      </article>
+
+      <article class="mini-card reveal">
+        <span class="icon" aria-hidden="true">♨</span>
+        <h3>Food Lover</h3>
+        <div class="tiny-line"></div>
+        <p>Loves pretty much every kind of Asian food and is always ready to try something delicious — just keep the green onions far away.</p>
+      </article>
+
+      <article class="mini-card reveal">
+        <span class="icon" aria-hidden="true">♡</span>
+        <h3>Adorable</h3>
+        <div class="tiny-line"></div>
+        <p>Playful, expressive, and full of the kind of personality that makes every group feel more alive.</p>
+      </article>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="about-text reveal">
+        <p class="eyebrow">About Hazel</p>
+        <h2>The kind of person who shows up for everyone.</h2>
+        <div class="line"></div>
+        <p>
+          Hoài Ngân Phan is bright, energetic, and always ready to make a moment more fun. She is usually the one encouraging everyone to come along, reminding the group what is happening, and making sure nobody misses an event. One of the things I admire most about her is how naturally she helps people when they are having a hard time — even when she sometimes forgets to put herself first.
+        </p>
+        <p>
+          She can be a little mean sometimes, but that teasing and straightforward side is also part of what makes her feel so genuine. She says what she thinks, keeps things interesting, and somehow that little bit of meanness becomes part of her charm. Underneath it all, she is thoughtful, caring, and willing to be there when it really matters.
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="gallery-heading reveal">
+        <p class="eyebrow">Little Memories</p>
+        <h2>Pieces of the good times.</h2>
+        <p class="gallery-note">A little collection of fun memories, all together.</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-24.jpg" aria-label="Open memory photo 1"><img src="assets/img/gallery/hazel-memory-24.jpg" alt="Memory with Hazel" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-21.jpg" aria-label="Open memory photo 2"><img src="assets/img/gallery/hazel-memory-21.jpg" alt="Fun memory with Hazel and friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-25.jpg" aria-label="Open memory photo 3"><img src="assets/img/gallery/hazel-memory-25.jpg" alt="Sweet photo memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-07.jpg" aria-label="Open memory photo 4"><img src="assets/img/gallery/hazel-memory-07.jpg" alt="Trip memory with friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-04.jpg" aria-label="Open memory photo 5"><img src="assets/img/gallery/hazel-memory-04.jpg" alt="Cute moment together" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-32.jpg" aria-label="Open memory photo 6"><img src="assets/img/gallery/hazel-memory-32.jpg" alt="Food outing memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-26.jpg" aria-label="Open memory photo 7"><img src="assets/img/gallery/hazel-memory-26.jpg" alt="Cherry blossom memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-02.jpg" aria-label="Open memory photo 8"><img src="assets/img/gallery/hazel-memory-02.jpg" alt="Night out memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-14.jpg" aria-label="Open memory photo 9"><img src="assets/img/gallery/hazel-memory-14.jpg" alt="Friendship memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-16.jpg" aria-label="Open memory photo 10"><img src="assets/img/gallery/hazel-memory-16.jpg" alt="Memory with Hazel" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-10.jpg" aria-label="Open memory photo 11"><img src="assets/img/gallery/hazel-memory-10.jpg" alt="Fun memory with Hazel and friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-20.jpg" aria-label="Open memory photo 12"><img src="assets/img/gallery/hazel-memory-20.jpg" alt="Sweet photo memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-35.jpg" aria-label="Open memory photo 13"><img src="assets/img/gallery/hazel-memory-35.jpg" alt="Trip memory with friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-34.jpg" aria-label="Open memory photo 14"><img src="assets/img/gallery/hazel-memory-34.jpg" alt="Cute moment together" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-15.jpg" aria-label="Open memory photo 15"><img src="assets/img/gallery/hazel-memory-15.jpg" alt="Food outing memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-28.jpg" aria-label="Open memory photo 16"><img src="assets/img/gallery/hazel-memory-28.jpg" alt="Cherry blossom memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-27.jpg" aria-label="Open memory photo 17"><img src="assets/img/gallery/hazel-memory-27.jpg" alt="Night out memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-18.jpg" aria-label="Open memory photo 18"><img src="assets/img/gallery/hazel-memory-18.jpg" alt="Friendship memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-13.jpg" aria-label="Open memory photo 19"><img src="assets/img/gallery/hazel-memory-13.jpg" alt="Memory with Hazel" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-33.jpg" aria-label="Open memory photo 20"><img src="assets/img/gallery/hazel-memory-33.jpg" alt="Fun memory with Hazel and friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-30.jpg" aria-label="Open memory photo 21"><img src="assets/img/gallery/hazel-memory-30.jpg" alt="Sweet photo memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-06.jpg" aria-label="Open memory photo 22"><img src="assets/img/gallery/hazel-memory-06.jpg" alt="Trip memory with friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-03.jpg" aria-label="Open memory photo 23"><img src="assets/img/gallery/hazel-memory-03.jpg" alt="Cute moment together" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-01.jpg" aria-label="Open memory photo 24"><img src="assets/img/gallery/hazel-memory-01.jpg" alt="Food outing memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-09.jpg" aria-label="Open memory photo 25"><img src="assets/img/gallery/hazel-memory-09.jpg" alt="Cherry blossom memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-19.jpg" aria-label="Open memory photo 26"><img src="assets/img/gallery/hazel-memory-19.jpg" alt="Night out memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-31.jpg" aria-label="Open memory photo 27"><img src="assets/img/gallery/hazel-memory-31.jpg" alt="Friendship memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-23.jpg" aria-label="Open memory photo 28"><img src="assets/img/gallery/hazel-memory-23.jpg" alt="Memory with Hazel" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-12.jpg" aria-label="Open memory photo 29"><img src="assets/img/gallery/hazel-memory-12.jpg" alt="Fun memory with Hazel and friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-22.jpg" aria-label="Open memory photo 30"><img src="assets/img/gallery/hazel-memory-22.jpg" alt="Sweet photo memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-29.jpg" aria-label="Open memory photo 31"><img src="assets/img/gallery/hazel-memory-29.jpg" alt="Trip memory with friends" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-11.jpg" aria-label="Open memory photo 32"><img src="assets/img/gallery/hazel-memory-11.jpg" alt="Cute moment together" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-05.jpg" aria-label="Open memory photo 33"><img src="assets/img/gallery/hazel-memory-05.jpg" alt="Food outing memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-17.jpg" aria-label="Open memory photo 34"><img src="assets/img/gallery/hazel-memory-17.jpg" alt="Cherry blossom memory" loading="lazy" /></button>
+        <button class="gallery-item reveal" type="button" data-src="assets/img/gallery/hazel-memory-08.jpg" aria-label="Open memory photo 35"><img src="assets/img/gallery/hazel-memory-08.jpg" alt="Night out memory" loading="lazy" /></button>
+      </div>
+    </section>
+
+    <section id="message" class="section letter reveal">
+      <p class="eyebrow">Small Message</p>
+      <h2>For Hazel</h2>
+      <p>
+        Always try new things, even if they seem small. You never know which little choice will end up changing your life. That is kind of how we started too — something small slowly became something bigger, something meaningful, and something I am genuinely grateful for. So do not be scared to try, explore, fail, or begin again. I will always be there for you and cheer you on.
+      </p>
+      <p>
+        Set goals that make you proud, chase the things that matter to you, and believe in yourself a little more every day. You already have a beautiful heart, both inside and out, and the best version of you is still growing.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>♡ A little page dedicated to Hazel ♡</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+    <button class="lightbox-backdrop" type="button" aria-label="Close photo viewer"></button>
+    <div class="lightbox-panel">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo viewer">×</button>
+      <img id="lightboxImage" src="" alt="Enlarged memory" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
